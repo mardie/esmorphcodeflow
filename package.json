@@ -1,0 +1,42 @@
+{
+  "author": {
+    "name": "Diego Marquina",
+    "email": "d@mardie.net"
+  },
+  "contributors": [
+    {
+      "email": "ariya.hidayat@gmail.com",
+      "name": "Ariya Hidayat"
+    },
+    {
+      "name": "Seth McLaughlin",
+      "email": "s@sethmcl.com",
+      "url": "http://www.sethmcl.com"
+    }
+  ],
+  "dependencies": {
+    "esprima": "*"
+  },
+  "description": "ECMAScript source modification tool forked from esmorph",
+  "devDependencies": {
+    "chai": "1.0.4",
+    "mocha": "1.7.0"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "http://github.com/sethmcl/esmorph/raw/master/LICENSE.BSD"
+    }
+  ],
+  "main": "lib/esmorph.js",
+  "name": "esmorphcodeflow",
+  "optionalDependencies": {},
+  "readme": "Esmorph is a work-in-progress library for\n[ECMAScript](http://www.ecma-international.org/publications/standards/Ecma-262.htm)\n(also popularly known as [JavaScript](http://en.wikipedia.org/wiki/JavaScript>JavaScript))\nsource modification tool. It is also written in ECMAScript.\nEsmorph depends on [Esprima](http://esprima.org).\n\nEsmorph can be used in a web browser:\n\n    <script src=\"esprima.js\"></script>\n    <script src=\"esmorph.js\"></script>\n\nor in a Node.js application via the package manager (soon).\n\n    npm install esmorph\n\nEsmorph is still in the development, more info will be available soon.\n\n### License\n\nCopyright (C) 2012 [Ariya Hidayat](http://ariya.ofilabs.com/about)\n (twitter: [@ariyahidayat](http://twitter.com/ariyahidayat)).\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n  * Redistributions of source code must retain the above copyright\n    notice, this list of conditions and the following disclaimer.\n\n  * Redistributions in binary form must reproduce the above copyright\n    notice, this list of conditions and the following disclaimer in the\n    documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE\nARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\nLOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND\nON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF\nTHIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n",
+  "scripts": {
+    "test": "mocha test/specs"
+  },
+  "version": "0.0.1"
+}
